@@ -4,7 +4,7 @@ public class Main {
         double weightKg = 74;
         double height = 1.9;
         double index = service.calculate(weightKg, height);
-        int indexInt = (int)index;
+        int indexInt = (int) index;
         System.out.println(indexInt);
     }
 }
